@@ -1,0 +1,26 @@
+body {
+    background-color: blueviolet;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.text {
+    width: 450px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    background: pink;
+    font-family: arial;
+}
+
+.by {
+    font-size: 16px;
+    color: darkgray;
+    font-family: arial;
+}

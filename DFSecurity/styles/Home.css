@@ -1,0 +1,97 @@
+div {
+   text-align: center;
+   color: white;
+}
+
+body {
+    background: blueviolet;
+    font-family: arial;
+    padding: 0;
+}
+
+.dfsecurity {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+}
+
+#menu_ul {
+    width: 1075px;
+}
+
+.btn {
+    width: 1075px;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.btn-1 {
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+    border-bottom: 5px solid darkred;
+    transition: transform 0.5s;
+}
+
+.btn-1:hover {
+    background-color: darkred;
+    box-shadow: 0px 0px 20px darkred;
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+}
+
+.btn-2 {
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+    border-bottom: 5px solid darkred;
+    transition: transform 0.5s;
+}
+
+.btn-2:hover {
+    background-color: darkred;
+    box-shadow: 0px 0px 20px darkred;
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+}
+
+.btn-3 {
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+    border-bottom: 5px solid darkred;
+    transition: transform 0.5s;
+}
+
+.btn-3:hover {
+    background-color: darkred;
+    box-shadow: 0px 0px 20px darkred;
+    transform: translate(0px, -5px);	
+    transition: transform 0.5s;
+}
+
+.btn-4 {
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+    border-bottom: 5px solid darkred;
+    transition: transform 0.5s;
+}
+
+.btn-4:hover {
+    background-color: darkred;
+    box-shadow: 0px 0px 20px darkred;
+    transform: translate(0px, -5px);	
+    transition: transform 0.5s;
+}
+
+.by {
+    color: darkgray;
+}

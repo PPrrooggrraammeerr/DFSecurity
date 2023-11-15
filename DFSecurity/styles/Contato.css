@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+textarea {
+    font-family: Arial;
+    border-radius: 5px;
+    width: 97%;
+}
+
+.Contato2 {
+    color: #2185d0;
+}
+
+.Contato1 {
+    width: 20%;
+    background-color: #454d6b;
+    position: absolute;
+    padding: 70px;
+    border-radius: 15px;
+}
+
+.Nome {
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+}
+
+.Email {
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    width: 90%;
+}
+
+.button1 {
+    display: inline-block;
+    width: 50%;
+}
+
+button {
+    font-family: Arial;
+    font-size: 15px;
+    color: #fff;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1678c2;
+    text-shadow: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1678c2;
+    box-shadow: 0px 0px 15px skyblue;
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+    box-shadow: none;
+    text-decoration-color: none; 
+}
+
+a:hover {
+    align-items: center;
+    text-decoration: none;
+    box-shadow: none;
+    text-decoration-color: none; 
+}
+
+textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+}

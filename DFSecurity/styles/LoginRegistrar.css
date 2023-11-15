@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.Acessesuaconta:visited {
+    color: #2185d0;
+}
+
+.LoginRegistrar {
+    background-color: #454d6b;
+    position: absolute;
+    padding: 115px;
+    border-radius: 15px;
+}
+
+.loginCPF {
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    width: 87%;
+}
+
+.SenhaLogin {
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    width: 87%;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button1, .button2 a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.button1 {
+    width: 30%;
+}
+
+.button2 {
+    margin-left: 1%;
+    width: 55%;
+}
+
+button, .button2 a {
+    font-family: Arial;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1678c2;
+    text-shadow: none;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .button2 a:hover {
+    background-color: #1678c2;
+    box-shadow: 0px 0px 15px skyblue;
+    transform: translate(0px, -5px);
+    transition: transform 0.5s;
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+.Esqueceusuasenha {
+    font-size: 16px;
+    color: darkgray;
+    font-family: arial;
+}
+
+a:link {
+    color: inherit;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: none;
+    text-decoration-color: none; 
+}
+
+a:hover {
+    color: inherit;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: none;
+    text-decoration-color: none; 
+}
+
+a:active {
+    color: darkgrey;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+.LoginRegistrar .buttons-container .button2 a,
+.LoginRegistrar .buttons-container .button2 a:hover,
+.LoginRegistrar .buttons-container .button2 a:visited,
+.LoginRegistrar .buttons-container .button2 a:active {
+    color: #fff;
+}
